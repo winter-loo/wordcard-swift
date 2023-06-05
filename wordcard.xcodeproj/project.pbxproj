@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		67B2D94228C9C21D0025A83F /* wordcardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B2D94128C9C21D0025A83F /* wordcardApp.swift */; };
-		67B2D94428C9C21D0025A83F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B2D94328C9C21D0025A83F /* ContentView.swift */; };
+		67B2D94428C9C21D0025A83F /* CardSwiper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B2D94328C9C21D0025A83F /* CardSwiper.swift */; };
 		67B2D94628C9C2200025A83F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67B2D94528C9C2200025A83F /* Assets.xcassets */; };
 		67B2D94928C9C2200025A83F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67B2D94828C9C2200025A83F /* Preview Assets.xcassets */; };
 		67B2D95328C9C2210025A83F /* wordcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B2D95228C9C2210025A83F /* wordcardTests.swift */; };
 		67B2D95D28C9C2210025A83F /* wordcardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B2D95C28C9C2210025A83F /* wordcardUITests.swift */; };
 		67B2D95F28C9C2210025A83F /* wordcardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B2D95E28C9C2210025A83F /* wordcardUITestsLaunchTests.swift */; };
+		67B2D96C28C9EB1B0025A83F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B2D96B28C9EB1B0025A83F /* CardView.swift */; };
+		67B2D96F28C9EBAB0025A83F /* word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B2D96E28C9EBAB0025A83F /* word.swift */; };
+		67B2D97928CBE5380025A83F /* CardListDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B2D97828CBE5380025A83F /* CardListDemo.swift */; };
+		67B2D97B28CC66FE0025A83F /* CardSwipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B2D97A28CC66FE0025A83F /* CardSwipeModel.swift */; };
+		67B2D97D28CDB6CB0025A83F /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B2D97C28CDB6CB0025A83F /* SearchView.swift */; };
+		67BAD53628E62DC4001334F5 /* NetImageShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BAD53528E62DC4001334F5 /* NetImageShow.swift */; };
+		67BAD53828E7978A001334F5 /* NewCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BAD53728E7978A001334F5 /* NewCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,7 @@
 /* Begin PBXFileReference section */
 		67B2D93E28C9C21D0025A83F /* wordcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wordcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67B2D94128C9C21D0025A83F /* wordcardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordcardApp.swift; sourceTree = "<group>"; };
-		67B2D94328C9C21D0025A83F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		67B2D94328C9C21D0025A83F /* CardSwiper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSwiper.swift; sourceTree = "<group>"; };
 		67B2D94528C9C2200025A83F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67B2D94828C9C2200025A83F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		67B2D94E28C9C2210025A83F /* wordcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wordcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +51,14 @@
 		67B2D95828C9C2210025A83F /* wordcardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wordcardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67B2D95C28C9C2210025A83F /* wordcardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordcardUITests.swift; sourceTree = "<group>"; };
 		67B2D95E28C9C2210025A83F /* wordcardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordcardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		67B2D96B28C9EB1B0025A83F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		67B2D96E28C9EBAB0025A83F /* word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = word.swift; sourceTree = "<group>"; };
+		67B2D97328CA8F8E0025A83F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		67B2D97828CBE5380025A83F /* CardListDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListDemo.swift; sourceTree = "<group>"; };
+		67B2D97A28CC66FE0025A83F /* CardSwipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSwipeModel.swift; sourceTree = "<group>"; };
+		67B2D97C28CDB6CB0025A83F /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		67BAD53528E62DC4001334F5 /* NetImageShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetImageShow.swift; sourceTree = "<group>"; };
+		67BAD53728E7978A001334F5 /* NewCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +109,18 @@
 		67B2D94028C9C21D0025A83F /* wordcard */ = {
 			isa = PBXGroup;
 			children = (
+				67B2D97328CA8F8E0025A83F /* Info.plist */,
+				67B2D97028CA81350025A83F /* Resources */,
+				67B2D96D28C9EB940025A83F /* Models */,
 				67B2D94128C9C21D0025A83F /* wordcardApp.swift */,
-				67B2D94328C9C21D0025A83F /* ContentView.swift */,
+				67B2D94328C9C21D0025A83F /* CardSwiper.swift */,
 				67B2D94528C9C2200025A83F /* Assets.xcassets */,
 				67B2D94728C9C2200025A83F /* Preview Content */,
+				67B2D96B28C9EB1B0025A83F /* CardView.swift */,
+				67B2D97828CBE5380025A83F /* CardListDemo.swift */,
+				67B2D97C28CDB6CB0025A83F /* SearchView.swift */,
+				67BAD53528E62DC4001334F5 /* NetImageShow.swift */,
+				67BAD53728E7978A001334F5 /* NewCardView.swift */,
 			);
 			path = wordcard;
 			sourceTree = "<group>";
@@ -125,6 +148,22 @@
 				67B2D95E28C9C2210025A83F /* wordcardUITestsLaunchTests.swift */,
 			);
 			path = wordcardUITests;
+			sourceTree = "<group>";
+		};
+		67B2D96D28C9EB940025A83F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				67B2D96E28C9EBAB0025A83F /* word.swift */,
+				67B2D97A28CC66FE0025A83F /* CardSwipeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		67B2D97028CA81350025A83F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +296,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67B2D94428C9C21D0025A83F /* ContentView.swift in Sources */,
+				67BAD53628E62DC4001334F5 /* NetImageShow.swift in Sources */,
+				67B2D97D28CDB6CB0025A83F /* SearchView.swift in Sources */,
+				67B2D97B28CC66FE0025A83F /* CardSwipeModel.swift in Sources */,
+				67B2D94428C9C21D0025A83F /* CardSwiper.swift in Sources */,
+				67B2D96F28C9EBAB0025A83F /* word.swift in Sources */,
+				67B2D97928CBE5380025A83F /* CardListDemo.swift in Sources */,
+				67B2D96C28C9EB1B0025A83F /* CardView.swift in Sources */,
+				67BAD53828E7978A001334F5 /* NewCardView.swift in Sources */,
 				67B2D94228C9C21D0025A83F /* wordcardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +466,7 @@
 				DEVELOPMENT_TEAM = BK3Z5KUBT7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = wordcard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +496,7 @@
 				DEVELOPMENT_TEAM = BK3Z5KUBT7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = wordcard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
